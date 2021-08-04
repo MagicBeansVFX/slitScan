@@ -43,7 +43,6 @@ Root {
  monitorLut sRGB
  int8Lut linear
  int16Lut linear
- logLut LK_cineon
  floatLut linear
  luts {linear {}
    sRGB {}
@@ -71,7 +70,6 @@ Root {
    HDR2084 {}
    st2084 {}
    REDSpace {}
-   LK_cineon {(pow(10,(x*1023-665)*(0.002/.6))*1.0061085)-0.006109}}
 }
 BackdropNode {
  inputs 0
